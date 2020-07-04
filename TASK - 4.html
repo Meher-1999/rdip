@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href=
+	"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity=
+		"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+		crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+	integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+	crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+	integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+	crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<title>Page - 4</title>
+	<link rel="stylesheet" type="text/css" href="mystyle4.css">
+</head>
+<body>
+	<h1 align="center">WHO WILL SURVIVE?</h1>
+	<br><br><br><br><br><br><br><br><br><br>
+	<div class="center">
+		<br><br><br>
+		<button onclick =  "getElementById('random1').value=Math.floor(Math.random()*1000)"> Click here to generate the 1st number </button>
+		<br><br><br><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input  id = "random1" type = "text" align="center">
+		<br><br><br><br>	
+		<button onclick =  "getElementById('random2').value=Math.floor(Math.random()*1000)"> Click here to generate the 2nd number </button>
+		<br><br><br><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input  id = "random2" type = "text" align="center">
+		<br><br><br><br><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button onclick = "document.getElementById('demo').innerHTML = mapping()"> Click here to check the winner </button>
+	</div>
+	<br><br><br><br><br>
+	<p id = "demo"></p>
+	<script type="text/javascript" src="myScript.js"></script>
+</body>
+</html>
